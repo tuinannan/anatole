@@ -52,8 +52,8 @@ html {
 
 body {
   color: var(--body-color);
-  font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Work Sans', 'Hiragino Sans GB', sans-serif;
-  font-size: 1.9rem;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 2.0rem;
   width: 100%;
   margin: 0 auto;
   background-color: var(--bg-color);
@@ -62,8 +62,8 @@ body {
 p {
   line-height: 1.4em;
   font-weight: 500;
-  font-size: 1.9rem;
-  color: rgb(73,69,69);
+  font-size: 2.0rem;
+  color: rgb(41,38,38);
   width: 85%;
 }
 
