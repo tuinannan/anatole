@@ -53,16 +53,16 @@ html {
 body {
   color: var(--body-color);
   font-family: 'Helvetica', sans-serif;
-  font-size: 2.0rem;
+  font-size: 1.76rem;
   width: 100%;
   margin: 0 auto;
   background-color: var(--bg-color);
 }
 
 p {
-  line-height: 1.4em;
+  line-height: 1.45em;
   font-weight: 500;
-  font-size: 2.0rem;
+  font-size: 1.76rem;
   color: rgb(41,38,38);
   width: 85%;
 }
