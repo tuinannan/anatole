@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 :root {
-  --bg-color: #fff;
-  --secondary-bg-color: #eeeeee;
+  --bg-color: #ffffff;
+  --secondary-bg-color: #ffffff;
   --heading-color: #464646;
-  --body-color: rgba(0, 0, 0, 0.7);
+  --body-color: #331900;
   --post-color: rgba(0, 0, 0, 0.44);
   --border-color: rgba(0, 0, 0, 0.15);
   --form-border-color: #9f9f9f;
@@ -24,14 +24,14 @@
   --content-width: calc(var(--content-ratio) * 100%);
   --sidebar-width: calc(var(--sidebar-ratio) * 100%);
   /* prettier-ignore */
-  --content-ratio: {{ .Site.Params.contentratio | default 0.6 }}
+  --content-ratio: {{ .Site.Params.contentratio | default 0.65 }}
 }
 
 html[data-theme='dark'] {
   --bg-color: #010408;
   --secondary-bg-color: rgb(56, 56, 56);
   --heading-color: #c9d1d9;
-  --body-color: rgb(169, 169, 179);
+  --body-color: #c9d1d9;
   --post-color: rgba(0, 0, 0, 0.44);
   --border-color: #30363d;
   --form-border-color: rgb(169, 169, 179);
@@ -39,7 +39,7 @@ html[data-theme='dark'] {
   --pre-bg-color: rgb(33, 33, 45);
   --nav-text-color: rgb(191, 191, 191);
   --tag-color: rgb(191, 191, 191);
-  --blockquote-text-color: #808080;
+  --blockquote-text-color: #c9d1d9;
   --blockquote-border-color: #424242;
   --link-color: #58a6fe;
 }
@@ -60,10 +60,11 @@ body {
 }
 
 p {
-  line-height: 1.45em;
+  line-height: 1.35em;
   font-weight: 500;
-  font-size: 1.76rem;
-  color: rgb(41,38,38);
+  font-size: 1.9rem;
+  /*color: rgb(41,38,38);*/
+  color: --body-color;
   width: 85%;
 }
 
