@@ -4,7 +4,7 @@
   --bg-color: #ffffff;
   --secondary-bg-color: #ffffff;
   --heading-color: #464646;
-  --body-color: #331900;
+  --body-color: #464646;
   --post-color: rgba(0, 0, 0, 0.44);
   --border-color: rgba(0, 0, 0, 0.15);
   --form-border-color: #9f9f9f;
@@ -17,7 +17,7 @@
   --link-color: #0366d7;
   --thumbnail-height: 15em;
   scroll-padding-top: 100px;
-  --body-max-width: 1920px;
+  --body-max-width: 1620px;
   --sidebar-ratio: calc(1 - var(--content-ratio));
   --content-max-width: calc(var(--body-max-width) * var(--content-ratio));
   --sidebar-max-width: calc(var(--body-max-width) - var(--content-max-width));
@@ -53,7 +53,7 @@ html {
 body {
   color: var(--body-color);
   font-family: 'Helvetica', sans-serif;
-  font-size: 1.76rem;
+  font-size: 1.9rem;
   width: 100%;
   margin: 0 auto;
   background-color: var(--bg-color);
@@ -65,7 +65,7 @@ p {
   font-size: 1.9rem;
   /*color: rgb(41,38,38);*/
   color: --body-color;
-  width: 85%;
+  width: 75%;
 }
 
 a {
@@ -95,7 +95,7 @@ blockquote {
 .tag,
 .category {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   line-height: 1;
   margin: 5px 8px 5px 0;
 }
@@ -405,7 +405,7 @@ aside {
 
 .post .post-content h4 {
   /* color: var(--heading-color); */
-  font-size: 1.6rem;
+  font-size: 1.9rem;
 }
 
 .post .post-content img {
@@ -413,15 +413,15 @@ aside {
 }
 
 .post .post-content ul {
-  line-height: 1.9em;
+  line-height: 1.0em;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
 }
 
 .post .post-content ol {
-  line-height: 1.9em;
+  line-height: 1.4em;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
 }
 
 .post .post-footer {
