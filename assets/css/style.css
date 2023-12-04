@@ -52,20 +52,20 @@ html {
 
 body {
   color: var(--body-color);
-  font-family: 'Helvetica', sans-serif;
-  font-size: 1.9rem;
+  font-family: "Arial", sans-serif;
+  font-size: 1.8rem;
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
   background-color: var(--bg-color);
 }
 
 p {
-  line-height: 1.35em;
-  font-weight: 500;
-  font-size: 1.9rem;
+  line-height: 1.3em;
+  /*font-weight: 200;*/
+  font-size: 1.8rem;
   /*color: rgb(41,38,38);*/
   color: --body-color;
-  width: 75%;
+  width: 72%;
 }
 
 a {
@@ -424,8 +424,8 @@ aside {
   font-weight: 400;
   font-size: 1.9rem;
   list-style-type: disc;
-  padding-left:0;
-  display: inline;
+  padding-left:20pt;
+  padding-top:0pt;
 }
 
 .post .post-footer {
