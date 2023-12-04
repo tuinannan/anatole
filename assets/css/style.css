@@ -103,7 +103,7 @@ blockquote {
 pre {
   background-color: var(--pre-bg-color);
   padding: 5px;
-  display: block;
+  display: inline;
   overflow-x: auto;
 }
 
@@ -416,12 +416,16 @@ aside {
   line-height: 1.0em;
   font-weight: 400;
   font-size: 1.9rem;
+  list-style: none;
 }
 
 .post .post-content ol {
   line-height: 1.4em;
   font-weight: 400;
   font-size: 1.9rem;
+  list-style-type: disc;
+  padding-left:0;
+  display: inline;
 }
 
 .post .post-footer {
@@ -1239,6 +1243,7 @@ a.btn {
   color: var(--body-color);
   width: 100%;
   height: auto;
+  list-style-type:none;
 }
 .form-style ul li input[type='button'],
 .form-style ul li input[type='submit'] {
