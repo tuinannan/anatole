@@ -65,7 +65,7 @@ p {
   font-size: 1.8rem;
   /*color: rgb(41,38,38);*/
   color: --body-color;
-  width: 72%;
+  width: 90%;
 }
 
 a {
@@ -424,7 +424,7 @@ aside {
   font-weight: 400;
   font-size: 1.9rem;
   list-style-type: disc;
-  padding-left:20pt;
+  padding-left:12pt;
   padding-top:0pt;
 }
 
