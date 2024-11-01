@@ -35,7 +35,7 @@
           </li>
 
         {{ end }}
-        {{ if .hugo.IsMultiLingual }}
+        {{ if hugo.IsMultiLingual }}
           {{ range $.Site.Home.AllTranslations }}
             <li><a href="{{ .RelPermalink }}" title="{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a></li>
 
